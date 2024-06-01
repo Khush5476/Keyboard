@@ -1,0 +1,180 @@
+#click{
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+
+
+}
+
+body{
+    background-image:url(https://i.ytimg.com/vi/WQjpiLBIkuE/maxresdefault.jpg);
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#keyboard{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 1150px;
+    overflow: hidden;
+    box-shadow: 0px 3px 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin: auto;
+    animation: fade;
+    animation-duration: 1.5s;
+
+}
+
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    margin: auto;
+    animation: fade;
+    animation-duration: 1.5s;
+
+}
+
+
+ 
+
+
+.Filler{
+    background-color: hsl(0 0% 15%);
+    color: hsl(0 0% 15%);
+    border: none;
+    width: 50px;
+    height:105px;
+
+
+}
+
+.Filler2{
+    background-color: hsl(0 0% 15%);
+    color: hsl(0 0% 15%);
+    border: none;
+    width: 100px;
+    height:110px
+}
+
+.Filler3{
+    background-color: hsl(0 0% 15%);
+    color: hsl(0 0% 15%);
+    border: none;
+    width:150px;
+    height:115px
+    
+}
+
+
+
+
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size:3rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px black;
+    animation: fade;
+    animation-duration: 1.5s;
+    
+
+
+}
+
+button:hover{
+   background-color: hsl(0, 0%, 40%);
+   box-shadow: 0px 3px 15px;
+   font-size:3.25rem;
+
+}
+
+button:active{
+    background-color: hsl(0, 0%, 60%);
+    box-shadow: 0px 3px 20px;
+    font-size:3.5rem;
+
+}
+
+
+
+.apple:hover{
+    background-color: hsl(0, 0%, 15%);
+    font-size: 3.25rem;
+    box-shadow: 0px  3px 20px purple;
+ }
+ 
+ .apple:active{
+    background-color: hsl(0, 0%, 20%);
+    font-size: 3.5rem;
+    box-shadow: 0px 3px 20px purple;
+    
+    
+ }
+
+ .apple{
+    width: 300px; 
+    height: 75px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color: hsl(0, 0%, 11%);
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 3px 20px;
+    
+ }
+
+ .space{
+    grid-row: 4;
+    width: 1000px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size:3rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    margin: auto;
+    animation: fade;
+    animation-duration: 1.5s;
+ }
+
+
+ @keyframes fade {
+    from {opacity: .5;}
+    to {opacity: 1;}
+ }
