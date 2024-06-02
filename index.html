@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewprot" content="width=device-width, initial-scale=1">
+    <meta http-equiv="viewport" content="IE=edge">
+    <title>Keyboard</title> 
+    <link rel="stylesheet" href="KEYBOARD.css">
+<head>
+<body>
+    <div id="click">
+        
+        <button onclick="Display('Calculator')"class="apple"><a href="https://khush5476.github.io/Calculator/">Calculator</a></button>
+        <button onclick="Display('Home')"class="apple"><a href="https://khush5476.github.io/Home/">Home</a></button>
+        <button onclick="Display('Keyboard')"class="apple"><a href="https://khush5476.github.io/Keyboard/">Keyboard</a></button>
+        <button onclick="Display('StopWatch')"class="apple"><a href="https://khush5476.github.io/Stopwatch/">StopWatch</a></button>
+        <button onclick="Display('TicTacToe')"class="apple"><a href="https://khush5476.github.io/TicTacToe/">TicTacToe</a></button>
+</div>
+<br><br><br><br>
+<div id="keyboard">
+    <input id="display" readonly>
+    <div id="keybind">
+        <div>
+ 
+        <button id="Hidden" onclick="Hidden(' ')" class="Filler">1</button>
+        <button onclick="appendToDisplay('q')" class="firstRow">q</button>
+        <button onclick="appendToDisplay('w')" class="firstRow">w</button>
+        <button onclick="appendToDisplay('e')" class="firstRow">e</button>
+        <button onclick="appendToDisplay('r')" class="firstRow">r</button>
+        <button onclick="appendToDisplay('t')" class="firstRow">t</button>
+        <button onclick="appendToDisplay('y')" class="firstRow">y</button>
+        <button onclick="appendToDisplay('u')" class="firstRow">u</button>
+        <button onclick="appendToDisplay('i')" class="firstRow">i</button>
+        <button onclick="appendToDisplay('o')" class="firstRow">o</button>
+        <button onclick="appendToDisplay('p')" class="firstRow">p</button>
+        <button id="hidden" onclick="Hidden(' ')" class="Filler">2</button>
+        </div>
+
+    <button id="HiddeN"  onclick="Hidden(' ')" class="Filler2">3</button>
+    <button onclick="appendToDisplay('a')" class="secoundRow">a</button>
+    <button onclick="appendToDisplay('s')" class="secoundRow">s</button>
+    <button onclick="appendToDisplay('d')" class="secoundRow">d</button>
+    <button onclick="appendToDisplay('f')" class="secoundRow">f</button>
+    <button onclick="appendToDisplay('g')" class="secoundRow">g</button>
+    <button onclick="appendToDisplay('h')" class="secoundRow">h</button>
+    <button onclick="appendToDisplay('j')" class="secoundRow">j</button>
+    <button onclick="appendToDisplay('k')" class="secoundRow">k</button>
+    <button onclick="appendToDisplay('l')" class="secoundRow">l</button>
+    <button id="HIdden"  onclick="Hidden(' ')" class="Filler2">4</button>
+    </div>
+    <button id="HiDden" onclick="Filler(' ')" class="Filler3">DELETE</button>
+    <button onclick="appendToDisplay('z')" class="LastRow">z</button>
+    <button onclick="appendToDisplay('x')" class="LastRow">x</button>
+    <button onclick="appendToDisplay('c')" class="LastRow">c</button>
+    <button onclick="appendToDisplay('v')" class="LastRow">v</button>
+    <button onclick="appendToDisplay('b')" class="LastRow">b</button>
+    <button onclick="appendToDisplay('n')" class="LastRow">n</button>
+    <button onclick="appendToDisplay('m')" class="LastRow">m</button>
+    <button onclick="appendToDisplay('.')" class="LastRow">.</button>
+    <button id="HidDen" onclick="Filler(' ')" class="Filler3">DELETE</button>
+
+    <button onclick="appendToDisplay(' ')" class="space">Space</button>
+</div>
+
+
+
+
+</div>
+
+</body>
+<script src="KEYBOARD.js"></script>
+
+
+</head>
