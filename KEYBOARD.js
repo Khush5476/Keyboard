@@ -18,7 +18,7 @@ HidDen.style.visibility = "hidDen"
             display.value += input;
         }
         
-        function Filler(){
+        function hello(){
             display.value = "";
         }
 

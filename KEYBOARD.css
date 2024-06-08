@@ -133,7 +133,7 @@ body{
 
 
 
-button{
+.firstRow, .secoundRow, .LastRow{
     width: 100px;
     height: 100px;
     border-radius: 20px;
@@ -147,19 +147,22 @@ button{
     animation: fade;
     animation-duration: 1.5s;
     
+    
 
 
 }
 
 button:hover{
-   background-color: hsl(0, 0%, 40%);
+    backdrop-filter: blur(5px);
+    background-color: 2px solid rgba(255, 255, 255, .2);
    box-shadow: 0px 3px 15px;
    font-size:3.25rem;
 
 }
 
 button:active{
-    background-color: hsl(0, 0%, 60%);
+    backdrop-filter: blur(5px);
+    background-color: 2px solid rgba(255, 255, 255, .3);
     box-shadow: 0px 3px 20px;
     font-size:3.5rem;
 
@@ -218,10 +221,42 @@ li a {
 }
   
 li a:hover:not(.active) {
-    background-color: hsl(0, 0%, 5%, 0.6)
+    background-color: hsl(0, 0%, 5%, 0.6);
 }
   
 .active {
     background-color: #04AA6D;
 }
+
+
+
+.DELETE{
+    position: absolute;
+    top: 170px;
+    right: 225px;    
+
+
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size:3rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px black;
+    animation: fade;
+    animation-duration: 1.5s;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+
+
+
+
   
