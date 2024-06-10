@@ -49,6 +49,7 @@ body{
     color: white;
     text-decoration: none;
     border: 5px black;
+    font-family: none;
  }
  
  .click a:hover{
