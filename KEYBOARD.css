@@ -31,7 +31,7 @@ body{
     list-style-type: none;
     border: 5px black;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     text-align: center;
     background-color: hsl(0, 0%, 5%, 0.5);
  
@@ -84,6 +84,7 @@ body{
     margin: auto;
     animation: fade;
     animation-duration: 1.5s;
+
 
 }
 
@@ -205,6 +206,12 @@ button:active{
     to {opacity: 1;}
  }
 
+ @keyframes fall {
+    0% {
+      transform: translateY(-100%);
+    }
+ }
+
 ul {
     font-family: Arial, sans-serif;
     list-style-type: none;
@@ -243,8 +250,8 @@ li.active {
 
 .DELETE{
     position: absolute;
-    top: 170px;
-    right: 225px;    
+    top: 165px;
+    right: 240px;    
 
 
 }
@@ -264,6 +271,7 @@ button{
     background-color: rgba(255, 255, 255, .1);
     backdrop-filter: blur(5px);
     border: 2px solid rgba(255, 255, 255, .2);
+    
 }
 
 
