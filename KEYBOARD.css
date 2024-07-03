@@ -200,6 +200,12 @@ button:active{
     animation-duration: 1.5s;
  }
 
+ @media (max-width:1400px) {
+    .click ul{
+        grid-template-columns: repeat(4, 2fr);
+    }
+}
+
 
  @keyframes fade {
     from {opacity: .5;}
